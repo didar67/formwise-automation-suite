@@ -1,0 +1,26 @@
+url: "https://example.com/form"
+fields:
+  - locator:
+      by: "name"
+      value: "name"
+    value: "Didarul Islam"
+    type: "text"
+  - locator:
+      by: "name"
+      value: "email"
+    value: "didar@example.com"
+    type: "text"
+  - locator:
+      by: "xpath"
+      value: "//textarea[@id='message']"
+    value: "Hello from updated automation script."
+    type: "text"
+  - locator:
+      by: "id"
+      value: "country"
+    value: "Bangladesh"
+    type: "dropdown"
+submit_button:
+  locator:
+    by: "xpath"
+    value: "//button[@type='submit']"
